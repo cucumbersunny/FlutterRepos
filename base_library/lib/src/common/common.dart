@@ -6,6 +6,6 @@ class BaseConstant {
   static const String keyUserModel = 'user_model';
   static const String keyAppToken = 'app_token';
 
-  static const String routeMain = 'route_main';
+  static const String routeMain = 'MainPage';
   static const String routeLogin = 'route_login';
 }
