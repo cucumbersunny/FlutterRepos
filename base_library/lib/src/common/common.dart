@@ -7,5 +7,6 @@ class BaseConstant {
   static const String keyAppToken = 'app_token';
 
   static const String routeMain = 'MainPage';
+  static const String routeUpdate = 'update_page';
   static const String routeLogin = 'route_login';
 }
