@@ -5,6 +5,10 @@ class RouteUtil {
   static void goMain(BuildContext context) {
     pushReplacementNamed(context, BaseConstant.routeMain);
   }
+  
+  static void goUpdatePage(BuildContext context) {
+    pushReplacementNamed(context, BaseConstant.routeUpdate);
+  }
 
   static void goLogin(BuildContext context) {
     pushNamed(context, BaseConstant.routeLogin);
